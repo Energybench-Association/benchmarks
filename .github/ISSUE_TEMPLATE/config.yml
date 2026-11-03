@@ -8,4 +8,4 @@ contact_links:
     about: Please report security issues privately, never in a public issue.
   - name: EnergyBench documentation
     url: https://energybench.org/docs/getting-started
-    about: How to use the catalog, the STAC API and the Python client.
+    about: How to use the catalog and the STAC API.

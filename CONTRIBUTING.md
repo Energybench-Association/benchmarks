@@ -6,7 +6,7 @@ published.
 
 ## Submitting a benchmark
 
-Benchmarks can be created directly through the [EnergyBench Explorer](https://energybench.org/browse). You can select individual data items, use spatial or other search filters, and submit your selection through the website. A bot then creates the benchmark files and opens a pull request on your behalf.
+Benchmarks can be created directly through the [EnergyBench Explorer](https://energybench.org/browse). You can select individual data items, use spatial or other search filters, and submit your selection through the website. The website then creates the benchmark files and opens a pull request on your behalf.
 
 You can also create or modify a benchmark manually by opening a pull request that adds or updates a folder under `benchmarks/<slug>/`. Each folder must follow the [file format](#file-format) described below. We recommend using the Explorer to generate an initial benchmark definition rather than writing the files from scratch.
 

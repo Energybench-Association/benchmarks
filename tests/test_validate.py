@@ -19,7 +19,7 @@ type Handler = Callable[[httpx.Request], httpx.Response]
 
 
 def make_collection(slug: str = SLUG, items: int = 2) -> dict[str, Any]:
-    """A benchmark Collection in the form the submission bot writes.
+    """A benchmark Collection in the form the website writes.
 
     Args:
         slug (str): Benchmark slug.
@@ -94,7 +94,7 @@ def write_benchmark(
     collection: dict[str, Any] | None = None,
     search: dict[str, Any] | None = None,
 ) -> Path:
-    """Write a benchmark folder the way the submission bot does.
+    """Write a benchmark folder the way the website does.
 
     Args:
         root (Path): The `benchmarks/` folder.
@@ -193,7 +193,7 @@ def offline_schemas(
 
 
 def test_valid_benchmark_passes(tmp_path: Path) -> None:
-    """A benchmark as the bot writes it, with every Item in the catalog, passes.
+    """A benchmark as the website writes it, with every Item in the catalog, passes.
 
     Args:
         tmp_path (Path): Temporary folder.
@@ -442,7 +442,7 @@ def test_invalid_stac_is_reported(
 
 @pytest.mark.network
 def test_stac_schemas(tmp_path: Path) -> None:
-    """The bot's Collection passes the real STAC and Themes schemas; a broken one fails.
+    """The website's Collection passes the real STAC and Themes schemas; a broken one fails.
 
     Args:
         tmp_path (Path): Temporary folder.

@@ -3,8 +3,8 @@ name: Validate
 # Checks every benchmark against STAC and EnergyBench's rules, and that each
 # pinned plant exists in the public catalog. Runs on every pull request.
 # It only reads this repository and the public STAC API, so it needs no
-# secrets and runs the same way for pull requests from forks and from the
-# submission bot.
+# secrets and runs the same way for every pull request, whether opened by
+# hand or from the website.
 on:
   pull_request:
   push:
