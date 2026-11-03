@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environments
+.venv/
+.env
+.env.*
+
+# Tests
+.pytest_cache/
+
+# Tool caches
+.ruff_cache/
+.pyrefly_cache/
+
+# Local agent and editor config
+.claude/
+.cursor/
+.idea/
+.vscode/
+.DS_Store
