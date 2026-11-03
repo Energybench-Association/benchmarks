@@ -1,0 +1,23 @@
+name: Problem with a benchmark
+description: A published benchmark is wrong, misleading or should be withdrawn.
+body:
+  - type: input
+    id: benchmark
+    attributes:
+      label: Benchmark
+      description: Its folder name or its page on energybench.org.
+      placeholder: benchmarks/chile-wind-farms
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: For example plants that don't fit its purpose, a misleading description, or a duplicate of another benchmark.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: Suggested fix
+      description: What should change? A pull request with the fix is welcome too.

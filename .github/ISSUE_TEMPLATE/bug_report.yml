@@ -1,0 +1,22 @@
+name: Validation bug
+description: The Validate check or scripts/validate.py rejects a valid benchmark or accepts a broken one.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Pull request or workflow run
+      description: A link to where you saw it, if any.
+  - type: textarea
+    id: output
+    attributes:
+      label: Validation output
+      description: The output of `uv run scripts/validate.py`, if any.
+      render: text
