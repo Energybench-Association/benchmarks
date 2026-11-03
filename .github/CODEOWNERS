@@ -1,0 +1,6 @@
+# Every change needs a maintainer's approval before merging: the workflows and
+# scripts/validate.py decide what gets checked, so they are reviewed too.
+* @Energybench-Association/maintainers
+
+# Every benchmark needs a maintainer's approval before merging.
+/benchmarks/ @Energybench-Association/maintainers
