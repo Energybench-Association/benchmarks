@@ -1,8 +1,8 @@
 # Security policy
 
 This repository holds benchmark definitions and the script that validates them. EnergyBench
-publishes merged benchmarks to [energybench.org](https://energybench.org) and its
-[STAC API](https://energybench.org/api).
+publishes merged benchmarks to [energybench.org](https://www.energybench.org) and its
+[STAC API](https://www.energybench.org/api).
 
 ## Reporting a vulnerability
 

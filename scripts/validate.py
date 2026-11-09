@@ -14,7 +14,7 @@ For each `benchmarks/<slug>/`:
 
 These are the rules EnergyBench applies again when it publishes a merged benchmark.
 
-Usage: `uv run scripts/validate.py [--api https://energybench.org/api]`.
+Usage: `uv run scripts/validate.py [--api https://www.energybench.org/api]`.
 """
 
 import argparse
@@ -31,7 +31,7 @@ from pystac.errors import STACValidationError
 type JSON = dict[str, Any]
 """A JSON object, such as a STAC Collection."""
 
-API_URL = "https://energybench.org/api"
+API_URL = "https://www.energybench.org/api"
 DOMAIN_SCHEME = "https://energybench.org/domains"
 PREFIX = "benchmark-"
 ITEM_PATH = re.compile(r"/collections/([^/]+)/items/([^/?#]+)$")

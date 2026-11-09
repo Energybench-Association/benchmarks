@@ -12,7 +12,7 @@ from pystac.errors import STACValidationError
 
 import validate
 
-API = "https://energybench.org/api"
+API = "https://www.energybench.org/api"
 SLUG = "example-wind-farms"
 
 type Handler = Callable[[httpx.Request], httpx.Response]
@@ -44,7 +44,7 @@ def make_collection(slug: str = SLUG, items: int = 2) -> dict[str, Any]:
             {
                 "name": "Energybench Association",
                 "roles": ["host"],
-                "url": "https://energybench.org",
+                "url": "https://www.energybench.org",
             },
         ],
         "extent": {

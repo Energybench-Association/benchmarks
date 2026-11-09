@@ -4,9 +4,9 @@ Guidance for AI coding agents working in this repository. `CLAUDE.md` is a symli
 
 ## What this is
 
-The public, community-curated benchmarks of [EnergyBench](https://energybench.org). Each benchmark
+The public, community-curated benchmarks of [EnergyBench](https://www.energybench.org). Each benchmark
 is a STAC Collection in `benchmarks/<slug>/` (`collection.json` plus `search.json`), listing its
-plants as `item` links to released Items in the public STAC API (`https://energybench.org/api`).
+plants as `item` links to released Items in the public STAC API (`https://www.energybench.org/api`).
 Most arrive as pull requests opened from the website; maintainers review and squash-merge
 them, and EnergyBench publishes `main` every few minutes. The repository holds data and the
 validation that guards it; nothing here is released as a package.
