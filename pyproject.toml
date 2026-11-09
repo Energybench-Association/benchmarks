@@ -10,7 +10,7 @@ requires-python = ">=3.12"
 dependencies = ["httpx>=0.28", "pystac[validation]>=1.15"]
 
 [project.urls]
-Homepage = "https://energybench.org/benchmarks"
+Homepage = "https://www.energybench.org/benchmarks"
 Repository = "https://github.com/Energybench-Association/benchmarks"
 Issues = "https://github.com/Energybench-Association/benchmarks/issues"
 
