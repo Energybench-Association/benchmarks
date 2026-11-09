@@ -1,0 +1,24 @@
+{
+  "searches": [
+    {
+      "collections": [
+        "cen-pt1h__v0.1.0"
+      ],
+      "filter-lang": "cql2-json",
+      "filter": {
+        "op": "in",
+        "args": [
+          {
+            "property": "energy:fuel_type"
+          },
+          [
+            "wind"
+          ]
+        ]
+      }
+    }
+  ],
+  "added": [],
+  "removed": [],
+  "resolved": "2026-11-09T16:36:12.139940Z"
+}
