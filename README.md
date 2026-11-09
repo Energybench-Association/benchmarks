@@ -1,10 +1,10 @@
 # EnergyBench Benchmarks
 
-This repository contains community benchmarks for [EnergyBench](https://energybench.org). Each benchmark defines a subset of EnergyBench data and references specific data versions to ensure that results can be reproduced.
+This repository contains community benchmarks for [EnergyBench](https://www.energybench.org). Each benchmark defines a subset of EnergyBench data and references specific data versions to ensure that results can be reproduced.
 
 Benchmarks can include energy data, weather data, or any combination of the two, depending on their intended purpose.
 
-The repository contains the benchmark definitions and the validation checks used before publication. Published benchmarks are available at [energybench.org/benchmarks](https://energybench.org/benchmarks).
+The repository contains the benchmark definitions and the validation checks used before publication. Published benchmarks are available at [energybench.org/benchmarks](https://www.energybench.org/benchmarks).
 
 ## What is a benchmark?
 
@@ -14,7 +14,7 @@ Each benchmark has a title, a description of its purpose, and a fixed selection 
 
 Each benchmark is stored in its own folder under `benchmarks/<slug>/` and contains two files.
 
-- `collection.json` defines the benchmark as a [STAC](https://stacspec.org) Collection. It has the ID `benchmark-<slug>` and belongs to the `benchmark` domain. Each selected plant is linked to an existing Item in the public EnergyBench catalog. These links include the exact data release, such as `cen__v0.1.1`, so the benchmark always references the same data version.
+- `collection.json` defines the benchmark as a [STAC](https://stacspec.org) Collection. It has the ID `benchmark-<slug>` and belongs to the `benchmark` domain. Each selected plant is linked to an existing Item in the public EnergyBench catalog. These links include the exact data release, such as `cen-pt1h__v0.1.0`, so the benchmark always references the same data version.
 - `search.json` records how the plants were selected. This includes the searches used to find plants and any plants that were manually added or removed. The file is referenced from the Collection using a `via` link.
 
 The file formats are described in more detail in [CONTRIBUTING.md](CONTRIBUTING.md#file-format).
@@ -23,7 +23,7 @@ The file formats are described in more detail in [CONTRIBUTING.md](CONTRIBUTING.
 
 The easiest way to create a benchmark is through the EnergyBench website.
 
-1. Open the [Explorer](https://energybench.org/browse) and select the plants you want to include. You can select individual plants, choose a region on the map, or include all plants matching a search.
+1. Open the [Explorer](https://www.energybench.org/browse) and select the plants you want to include. You can select individual plants, choose a region on the map, or include all plants matching a search.
 2. Give your benchmark a title and describe its purpose. You can then submit it using your GitHub or ORCID account so that your contribution is credited.
 3. EnergyBench automatically creates a pull request in this repository with the benchmark definition and identifies you as its producer.
 
@@ -60,14 +60,14 @@ When a benchmark is published, each selected plant is represented as an Item wit
 
 ## Using a benchmark
 
-Published benchmarks are available through the [EnergyBench STAC API](https://energybench.org/api) and can be accessed using standard STAC tools such as `pystac-client`.
+Published benchmarks are available through the [EnergyBench STAC API](https://www.energybench.org/api) and can be accessed using standard STAC tools such as `pystac-client`.
 
 The following example opens a benchmark and lists its plants and corresponding data assets.
 
 ```python
 from pystac_client import Client
 
-api = Client.open("https://energybench.org/api/")
+api = Client.open("https://www.energybench.org/api/")
 benchmark = api.get_collection("benchmark-<slug>")
 print(benchmark.title, benchmark.description)
 
@@ -75,10 +75,10 @@ for item in api.search(collections=[benchmark.id]).items():
     print(item.id, item.assets["data"].href)
 ```
 
-The [getting-started guide](https://energybench.org/docs/getting-started) explains how to open and work with the underlying data.
+The [getting-started guide](https://www.energybench.org/docs/getting-started) explains how to open and work with the underlying data.
 
 ## License
 
 The contents of this repository, including all benchmark definitions in `benchmarks/`, are available under the [MIT License](LICENSE).
 
-The underlying energy data is not covered by this license. Each dataset retains the license and terms of use of its original provider. This information is recorded in the corresponding release Collection, linked from the benchmark Collection, and available on the [EnergyBench citation page](https://energybench.org/cite).
+The underlying energy data is not covered by this license. Each dataset retains the license and terms of use of its original provider. This information is recorded in the corresponding release Collection, linked from the benchmark Collection, and available on the [EnergyBench citation page](https://www.energybench.org/cite).

@@ -1,11 +1,11 @@
 blank_issues_enabled: false
 contact_links:
   - name: Submit a benchmark
-    url: https://energybench.org/benchmarks
+    url: https://www.energybench.org/benchmarks
     about: Pick plants in the Explorer and submit them; a pull request is opened for you.
   - name: Report a security vulnerability
     url: https://github.com/Energybench-Association/benchmarks/security/advisories/new
     about: Please report security issues privately, never in a public issue.
   - name: EnergyBench documentation
-    url: https://energybench.org/docs/getting-started
+    url: https://www.energybench.org/docs/getting-started
     about: How to use the catalog and the STAC API.

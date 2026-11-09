@@ -6,7 +6,7 @@ published.
 
 ## Submitting a benchmark
 
-Benchmarks can be created directly through the [EnergyBench Explorer](https://energybench.org/browse). You can select individual data items, use spatial or other search filters, and submit your selection through the website. The website then creates the benchmark files and opens a pull request on your behalf.
+Benchmarks can be created directly through the [EnergyBench Explorer](https://www.energybench.org/browse). You can select individual data items, use spatial or other search filters, and submit your selection through the website. The website then creates the benchmark files and opens a pull request on your behalf.
 
 You can also create or modify a benchmark manually by opening a pull request that adds or updates a folder under `benchmarks/<slug>/`. Each folder must follow the [file format](#file-format) described below. We recommend using the Explorer to generate an initial benchmark definition rather than writing the files from scratch.
 
@@ -64,7 +64,7 @@ The `themes` field must include the following entry.
 
 The Collection must also contain the following links.
 
-- A `root` link to the EnergyBench STAC API at `https://energybench.org/api/`.
+- A `root` link to the EnergyBench STAC API at `https://www.energybench.org/api/`.
 - A `via` link to `./search.json`, with the title `How this selection was made`.
 - A `license` link for the applicable terms of use of each source release.
 - An `item` link for every selected data item, referencing an existing Item in a published release of the EnergyBench catalog.
@@ -72,10 +72,10 @@ The Collection must also contain the following links.
 For example, an Item link may reference
 
 ```text
-https://energybench.org/api/collections/cen__v0.1.1/items/cen-1899
+https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1899
 ```
 
-Release Collections follow the naming convention `<dataset>__<release>`. By referencing a specific release, the benchmark preserves the exact version of the data used when it was created.
+Release Collections follow the naming convention `<dataset>-<time step>__<release>`, for example `cen-pt1h__v0.1.0`. By referencing a specific release, the benchmark preserves the exact version of the data used when it was created.
 
 Each Item may appear only once in a benchmark and must reference a single release. A benchmark must contain at least one Item and may contain no more than 20,000.
 
@@ -89,13 +89,13 @@ An example is shown below.
 {
   "searches": [
     {
-      "collections": ["cen__v0.1.1"],
+      "collections": ["cen-pt1h__v0.1.0"],
       "filter-lang": "cql2-json",
       "filter": {}
     }
   ],
-  "added": ["cen__v0.1.1/cen-1948"],
-  "removed": ["cen__v0.1.1/cen-1793"],
+  "added": ["cen-pt1h__v0.1.0/cen-1948"],
+  "removed": ["cen-pt1h__v0.1.0/cen-1793"],
   "resolved": "2026-11-01T11:37:23Z"
 }
 ```
