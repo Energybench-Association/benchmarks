@@ -1,0 +1,492 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "id": "benchmark-chile-wind",
+  "title": "Chile Wind",
+  "description": "A benchmark of wind power generation data from Chile. All available data is included (hourly resolution, from 2000 to 2025).",
+  "license": "proprietary",
+  "keywords": [
+    "benchmark",
+    "wind"
+  ],
+  "providers": [
+    {
+      "name": "Elena Vollmer",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://github.com/emvollmer"
+    },
+    {
+      "name": "Energybench Association",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.energybench.org"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -73.94009300541495,
+          -42.281243877200524,
+          -68.58091253198728,
+          -22.093487511637466
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2007-11-23T03:00:00Z",
+          "2026-01-01T03:00:00Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "energy:fuel_type": [
+      "wind"
+    ],
+    "energy:entity_type": [
+      "facility"
+    ],
+    "energy:status": [
+      "active",
+      "under_construction"
+    ],
+    "energy:measurement_type": [
+      "gross_output"
+    ]
+  },
+  "themes": [
+    {
+      "scheme": "https://energybench.org/domains",
+      "concepts": [
+        {
+          "id": "benchmark"
+        }
+      ]
+    }
+  ],
+  "created": "2026-11-09T16:36:12.139574Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.energybench.org/api/",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "./search.json",
+      "type": "application/json",
+      "title": "How this selection was made"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.coordinador.cl/terminos-y-condiciones/",
+      "type": "text/html",
+      "title": "CEN (Chile) hourly generation per plant — release v0.1.0: Terms of use"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1793",
+      "type": "application/geo+json",
+      "title": "PE CKHURI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2290",
+      "type": "application/geo+json",
+      "title": "PE ANTOFAGASTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2379",
+      "type": "application/geo+json",
+      "title": "PE HORIZONTE SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2170",
+      "type": "application/geo+json",
+      "title": "PE KALLPA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2138",
+      "type": "application/geo+json",
+      "title": "PE HORIZONTE NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2144",
+      "type": "application/geo+json",
+      "title": "PE PUNTA DE TALCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2161",
+      "type": "application/geo+json",
+      "title": "PE LOS CERRILLOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2042",
+      "type": "application/geo+json",
+      "title": "PE MANANTIALES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2023",
+      "type": "application/geo+json",
+      "title": "PE CARDONAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2091",
+      "type": "application/geo+json",
+      "title": "PE SAN MATIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2122",
+      "type": "application/geo+json",
+      "title": "PE LA CABAÑA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1995",
+      "type": "application/geo+json",
+      "title": "PE ATACAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1845",
+      "type": "application/geo+json",
+      "title": "PE CAMPO LINDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1800",
+      "type": "application/geo+json",
+      "title": "PE LOMAS DE DUQUECO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1819",
+      "type": "application/geo+json",
+      "title": "PE LLANOS DEL VIENTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1815",
+      "type": "application/geo+json",
+      "title": "PE PUELCHE SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1712",
+      "type": "application/geo+json",
+      "title": "PE CERRO TIGRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1691",
+      "type": "application/geo+json",
+      "title": "PE TCHAMMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1758",
+      "type": "application/geo+json",
+      "title": "PE MESAMAVIDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1690",
+      "type": "application/geo+json",
+      "title": "PE ALENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1753",
+      "type": "application/geo+json",
+      "title": "PE RENAICO II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1757",
+      "type": "application/geo+json",
+      "title": "PE LOS OLMOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1685",
+      "type": "application/geo+json",
+      "title": "PE CALAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1707",
+      "type": "application/geo+json",
+      "title": "PE MALLECO NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1706",
+      "type": "application/geo+json",
+      "title": "PE MALLECO SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1667",
+      "type": "application/geo+json",
+      "title": "PE NEGRETE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1682",
+      "type": "application/geo+json",
+      "title": "PE LA ESTRELLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1658",
+      "type": "application/geo+json",
+      "title": "PE CABO LEONES II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-607",
+      "type": "application/geo+json",
+      "title": "PMGD PE EL ARREBOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-636",
+      "type": "application/geo+json",
+      "title": "PE CABO LEONES III"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-626",
+      "type": "application/geo+json",
+      "title": "PE TOLPAN SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-594",
+      "type": "application/geo+json",
+      "title": "PE EL MAITEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-611",
+      "type": "application/geo+json",
+      "title": "PE LA FLOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-544",
+      "type": "application/geo+json",
+      "title": "PE SAN GABRIEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-621",
+      "type": "application/geo+json",
+      "title": "PMGD PE EL NOGAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-516",
+      "type": "application/geo+json",
+      "title": "PE SARCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-512",
+      "type": "application/geo+json",
+      "title": "PE AURORA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-531",
+      "type": "application/geo+json",
+      "title": "PE PUNTA SIERRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-478",
+      "type": "application/geo+json",
+      "title": "PE CABO LEONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-436",
+      "type": "application/geo+json",
+      "title": "PMGD PE LEBU III"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-454",
+      "type": "application/geo+json",
+      "title": "PE SIERRA GORDA ESTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-366",
+      "type": "application/geo+json",
+      "title": "PE SAN PEDRO II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-365",
+      "type": "application/geo+json",
+      "title": "PE SAN JUAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-414",
+      "type": "application/geo+json",
+      "title": "PMGD PE LAS PEÑAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-360",
+      "type": "application/geo+json",
+      "title": "PE LA ESPERANZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-345",
+      "type": "application/geo+json",
+      "title": "PE LOS BUENOS AIRES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-342",
+      "type": "application/geo+json",
+      "title": "PE RENAICO I"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-406",
+      "type": "application/geo+json",
+      "title": "PE VALLE DE LOS VIENTOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-350",
+      "type": "application/geo+json",
+      "title": "PMGD PE HUAJACHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-334",
+      "type": "application/geo+json",
+      "title": "PMGD PE RAKI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-289",
+      "type": "application/geo+json",
+      "title": "PE TALINAY PONIENTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-283",
+      "type": "application/geo+json",
+      "title": "PE TALTAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-282",
+      "type": "application/geo+json",
+      "title": "PE PUNTA PALMERAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-281",
+      "type": "application/geo+json",
+      "title": "PE UCUQUER II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-318",
+      "type": "application/geo+json",
+      "title": "PE LOS CURUROS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-276",
+      "type": "application/geo+json",
+      "title": "PE EL ARRAYAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-268",
+      "type": "application/geo+json",
+      "title": "PE SAN PEDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-251",
+      "type": "application/geo+json",
+      "title": "PE CUEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-238",
+      "type": "application/geo+json",
+      "title": "PE TALINAY ORIENTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-295",
+      "type": "application/geo+json",
+      "title": "PMGD PE UCUQUER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-223",
+      "type": "application/geo+json",
+      "title": "PE PUNTA COLORADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-170",
+      "type": "application/geo+json",
+      "title": "PE TOTORAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-145",
+      "type": "application/geo+json",
+      "title": "PE MONTE REDONDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-83",
+      "type": "application/geo+json",
+      "title": "PE CANELA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-19",
+      "type": "application/geo+json",
+      "title": "PE LEBU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-118",
+      "type": "application/geo+json",
+      "title": "PE CANELA"
+    }
+  ]
+}
