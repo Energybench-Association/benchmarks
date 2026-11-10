@@ -1,0 +1,1192 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "id": "benchmark-test-stuff",
+  "title": "Test Stuff",
+  "description": "Testing to see if I can reproduce bug",
+  "license": "proprietary",
+  "keywords": [
+    "benchmark",
+    "coal",
+    "gas",
+    "oil"
+  ],
+  "providers": [
+    {
+      "name": "Kaleb Phipps",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://github.com/kalebphipps"
+    },
+    {
+      "name": "Energybench Association",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.energybench.org"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -109.53949062976557,
+          -56.01175910036887,
+          -66.33722881438884,
+          -17.409384224452577
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2000-01-01T03:00:00Z",
+          "2026-01-01T03:00:00Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "energy:fuel_type": [
+      "coal",
+      "gas",
+      "oil"
+    ],
+    "energy:entity_type": [
+      "facility"
+    ],
+    "energy:status": [
+      "active",
+      "decommissioned"
+    ],
+    "energy:measurement_type": [
+      "gross_output"
+    ]
+  },
+  "themes": [
+    {
+      "scheme": "https://energybench.org/domains",
+      "concepts": [
+        {
+          "id": "benchmark"
+        }
+      ]
+    }
+  ],
+  "created": "2026-11-10T09:50:54.395405Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.energybench.org/api/",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "./search.json",
+      "type": "application/json",
+      "title": "How this selection was made"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.coordinador.cl/terminos-y-condiciones/",
+      "type": "text/html",
+      "title": "CEN (Chile) hourly generation per plant — release v0.1.0: Terms of use"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-494",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL CANELO II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2404",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP MARVER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2255",
+      "type": "application/geo+json",
+      "title": "PMGD TER HOLLEY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2291",
+      "type": "application/geo+json",
+      "title": "PMGD TER MAYOR POWER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2373",
+      "type": "application/geo+json",
+      "title": "PMGD TER DIESEL COLACO PARGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2257",
+      "type": "application/geo+json",
+      "title": "PMGD TER EXEQUIEL FERNANDEZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2260",
+      "type": "application/geo+json",
+      "title": "PMGD TER BELLET"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2172",
+      "type": "application/geo+json",
+      "title": "PMGD TER DIESEL COYA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-461",
+      "type": "application/geo+json",
+      "title": "PMGD TER LOS PINOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2017",
+      "type": "application/geo+json",
+      "title": "PMGD TER LAS DALIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2142",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL JARDIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-610",
+      "type": "application/geo+json",
+      "title": "TER MAITENCILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1962",
+      "type": "application/geo+json",
+      "title": "PMGD TER CENTRAL DE RESPALDO TIGRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2033",
+      "type": "application/geo+json",
+      "title": "PMGD TER BERLIOZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1961",
+      "type": "application/geo+json",
+      "title": "PMGD TER CENTRAL DE RESPALDO EGIDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1937",
+      "type": "application/geo+json",
+      "title": "PMGD TER GENERADORA LAGUNITAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1944",
+      "type": "application/geo+json",
+      "title": "PMGD TER AGGREKO 01"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1898",
+      "type": "application/geo+json",
+      "title": "PMGD TER DAGOBERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-628",
+      "type": "application/geo+json",
+      "title": "TER LLANOS BLANCOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1904",
+      "type": "application/geo+json",
+      "title": "PMGD TER DIESEL CEREZO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1874",
+      "type": "application/geo+json",
+      "title": "PMGD TER CAMPING DIESEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1868",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP LAS QUEMAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1657",
+      "type": "application/geo+json",
+      "title": "TER SAN JAVIER I"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1812",
+      "type": "application/geo+json",
+      "title": "PMGD TER DON PEDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-567",
+      "type": "application/geo+json",
+      "title": "TER COMBARBALA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1822",
+      "type": "application/geo+json",
+      "title": "PMGD TER CHILLAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1821",
+      "type": "application/geo+json",
+      "title": "PMGD TER ETERSOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1830",
+      "type": "application/geo+json",
+      "title": "PMGD TER ELECTRICA PINARES LIMITADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1840",
+      "type": "application/geo+json",
+      "title": "PMGD TER CENTRAL QUITRALMAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1785",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP RAPACO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1773",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP CAMPESINA (EX ALDEA)"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1772",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP LOS NEGROS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1777",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP TAMBORES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1778",
+      "type": "application/geo+json",
+      "title": "PMGD TER PRP CHIFIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1776",
+      "type": "application/geo+json",
+      "title": "PMGD TER BLUEGATE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1767",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL FARO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1760",
+      "type": "application/geo+json",
+      "title": "PMGD TER DEUCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-568",
+      "type": "application/geo+json",
+      "title": "TER CHAGUAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1746",
+      "type": "application/geo+json",
+      "title": "PMGD TER BOLDOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1743",
+      "type": "application/geo+json",
+      "title": "PMGD TER AROMOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-566",
+      "type": "application/geo+json",
+      "title": "TER PAJONALES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1652",
+      "type": "application/geo+json",
+      "title": "PMGD TER DOÑA JAVIERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1674",
+      "type": "application/geo+json",
+      "title": "PMGD TER CALAFATE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1673",
+      "type": "application/geo+json",
+      "title": "PMGD TER ALERCE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-596",
+      "type": "application/geo+json",
+      "title": "PMGD TER CHORRILLOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1663",
+      "type": "application/geo+json",
+      "title": "PMGD TER CIRUELILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1664",
+      "type": "application/geo+json",
+      "title": "PMGD TER COPIULEMU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-652",
+      "type": "application/geo+json",
+      "title": "PMGD TER CALFUCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-650",
+      "type": "application/geo+json",
+      "title": "PMGD TER RIO AZUL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-618",
+      "type": "application/geo+json",
+      "title": "PMGD TER GAMI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-624",
+      "type": "application/geo+json",
+      "title": "PMGD TER LOS SAUCES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-623",
+      "type": "application/geo+json",
+      "title": "PMGD TER YUMBEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-622",
+      "type": "application/geo+json",
+      "title": "PMGD TER PICOLTUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-591",
+      "type": "application/geo+json",
+      "title": "PMGD TER ALMENDRADO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-557",
+      "type": "application/geo+json",
+      "title": "TER TENO GAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-588",
+      "type": "application/geo+json",
+      "title": "PMGD TER MIMBRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-476",
+      "type": "application/geo+json",
+      "title": "TER ACONCAGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-587",
+      "type": "application/geo+json",
+      "title": "PMGD TER ZAPALLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-548",
+      "type": "application/geo+json",
+      "title": "PMGD TER AGNI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-36",
+      "type": "application/geo+json",
+      "title": "PMGD TER ORAFTI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-547",
+      "type": "application/geo+json",
+      "title": "PMGD TER CORTES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-502",
+      "type": "application/geo+json",
+      "title": "PMGD TER CHILE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-488",
+      "type": "application/geo+json",
+      "title": "TER IEM"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-561",
+      "type": "application/geo+json",
+      "title": "PMGD TER RAMADILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-552",
+      "type": "application/geo+json",
+      "title": "PMGD TER SEPULTURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-540",
+      "type": "application/geo+json",
+      "title": "PMGD TER ERMITAÑO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-510",
+      "type": "application/geo+json",
+      "title": "TER DEGAÑ 2"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-523",
+      "type": "application/geo+json",
+      "title": "PMGD TER CONCHALI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-507",
+      "type": "application/geo+json",
+      "title": "PMGD TER LIPIGAS CONCON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-521",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL CAMPESINO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-481",
+      "type": "application/geo+json",
+      "title": "PMGD TER LEPANTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-479",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL NOGAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-431",
+      "type": "application/geo+json",
+      "title": "PMGD TER REY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-408",
+      "type": "application/geo+json",
+      "title": "PMGD TER HBS GNL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-371",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL CANELO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-369",
+      "type": "application/geo+json",
+      "title": "PMGD TER RASO POWER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-358",
+      "type": "application/geo+json",
+      "title": "PMGD TER EL MOLLE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-396",
+      "type": "application/geo+json",
+      "title": "TER UJINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-379",
+      "type": "application/geo+json",
+      "title": "TER COCHRANE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-383",
+      "type": "application/geo+json",
+      "title": "TER TAMAYA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-398",
+      "type": "application/geo+json",
+      "title": "TER AGUAS BLANCAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-392",
+      "type": "application/geo+json",
+      "title": "TER INACAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-391",
+      "type": "application/geo+json",
+      "title": "TER MANTOS BLANCOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-390",
+      "type": "application/geo+json",
+      "title": "PMGD TER ESTANDARTES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-389",
+      "type": "application/geo+json",
+      "title": "PMGD TER ZOFRI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-382",
+      "type": "application/geo+json",
+      "title": "TER IQUIQUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-381",
+      "type": "application/geo+json",
+      "title": "TER ARICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-405",
+      "type": "application/geo+json",
+      "title": "TER LA PORTADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-395",
+      "type": "application/geo+json",
+      "title": "TER HORNITOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-377",
+      "type": "application/geo+json",
+      "title": "TER ANGAMOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-376",
+      "type": "application/geo+json",
+      "title": "TER ANDINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-375",
+      "type": "application/geo+json",
+      "title": "TER NORGENER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-330",
+      "type": "application/geo+json",
+      "title": "TER ANDES GENERACION"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-294",
+      "type": "application/geo+json",
+      "title": "TER LOS GUINDOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-329",
+      "type": "application/geo+json",
+      "title": "TER CMPC TISSUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-326",
+      "type": "application/geo+json",
+      "title": "TER CMPC CORDILLERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-64",
+      "type": "application/geo+json",
+      "title": "PMGD TER WATTS II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-279",
+      "type": "application/geo+json",
+      "title": "PMGD TER LAS PAMPAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-277",
+      "type": "application/geo+json",
+      "title": "PMGD TER SANTA IRENE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-240",
+      "type": "application/geo+json",
+      "title": "TER SANTA MARTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-296",
+      "type": "application/geo+json",
+      "title": "PMGD TER ANCALI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-237",
+      "type": "application/geo+json",
+      "title": "PMGD TER TREBAL MAPOCHO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-313",
+      "type": "application/geo+json",
+      "title": "PMGD TER ESTANCILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-253",
+      "type": "application/geo+json",
+      "title": "PMGD TER LOS ALAMOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-297",
+      "type": "application/geo+json",
+      "title": "PMGD TER BIO CRUZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-254",
+      "type": "application/geo+json",
+      "title": "PMGD TER CONTULMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-236",
+      "type": "application/geo+json",
+      "title": "TER CAMPICHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-260",
+      "type": "application/geo+json",
+      "title": "TER BOCAMINA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-166",
+      "type": "application/geo+json",
+      "title": "TER LOMA LOS COLORADOS II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-51",
+      "type": "application/geo+json",
+      "title": "PMGD TER JCE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-104",
+      "type": "application/geo+json",
+      "title": "TER SANTA MARIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-49",
+      "type": "application/geo+json",
+      "title": "PMGD TER DANISCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-47",
+      "type": "application/geo+json",
+      "title": "PMGD TER TIRUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-43",
+      "type": "application/geo+json",
+      "title": "PMGD TER LONQUIMAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-60",
+      "type": "application/geo+json",
+      "title": "PMGD TER SKRETTING OSORNO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-220",
+      "type": "application/geo+json",
+      "title": "PMGD TER TOMAVAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-62",
+      "type": "application/geo+json",
+      "title": "PMGD TER SOUTHERN BULBS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-54",
+      "type": "application/geo+json",
+      "title": "PMGD TER LOUSIANA PACIFIC II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-185",
+      "type": "application/geo+json",
+      "title": "TER CALLE CALLE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-214",
+      "type": "application/geo+json",
+      "title": "TER CEMENTOS BIO BIO CENTRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-81",
+      "type": "application/geo+json",
+      "title": "TER PUNTA COLORADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-18",
+      "type": "application/geo+json",
+      "title": "PMGD TER PLANTA CURICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-169",
+      "type": "application/geo+json",
+      "title": "TER COLIHUES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-113",
+      "type": "application/geo+json",
+      "title": "TER EMELDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-194",
+      "type": "application/geo+json",
+      "title": "TER EL SALVADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-33",
+      "type": "application/geo+json",
+      "title": "TER LOMA LOS COLORADOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-155",
+      "type": "application/geo+json",
+      "title": "TER TERMOPACIFICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-141",
+      "type": "application/geo+json",
+      "title": "TER SAN LORENZO DE D. DE ALMAGRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-68",
+      "type": "application/geo+json",
+      "title": "PMGD TER TAPIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-140",
+      "type": "application/geo+json",
+      "title": "TER EL PEÑON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-53",
+      "type": "application/geo+json",
+      "title": "PMGD TER LOUSIANA PACIFIC"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-195",
+      "type": "application/geo+json",
+      "title": "TER CARDONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-63",
+      "type": "application/geo+json",
+      "title": "PMGD TER WATTS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-56",
+      "type": "application/geo+json",
+      "title": "PMGD TER MULTIEXPORT II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-55",
+      "type": "application/geo+json",
+      "title": "PMGD TER MULTIEXPORT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-142",
+      "type": "application/geo+json",
+      "title": "TER TENO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-58",
+      "type": "application/geo+json",
+      "title": "PMGD TER SALMOFOOD"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-50",
+      "type": "application/geo+json",
+      "title": "PMGD TER EAGON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-48",
+      "type": "application/geo+json",
+      "title": "PMGD TER BIOMAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-14",
+      "type": "application/geo+json",
+      "title": "TER SAN GREGORIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-11",
+      "type": "application/geo+json",
+      "title": "TER LINARES NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-167",
+      "type": "application/geo+json",
+      "title": "TER LOS ESPINOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-143",
+      "type": "application/geo+json",
+      "title": "TER TRAPEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-110",
+      "type": "application/geo+json",
+      "title": "TER CENIZAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-93",
+      "type": "application/geo+json",
+      "title": "TER LOS PINOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-3",
+      "type": "application/geo+json",
+      "title": "TER CHILOE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-75",
+      "type": "application/geo+json",
+      "title": "TER SANTA LIDIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-112",
+      "type": "application/geo+json",
+      "title": "TER NUEVA VENTANAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-66",
+      "type": "application/geo+json",
+      "title": "PMGD TER CASABLANCA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-65",
+      "type": "application/geo+json",
+      "title": "PMGD TER CASABLANCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-pmgd-ter-skretting",
+      "type": "application/geo+json",
+      "title": "PMGD TER SKRETTING"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-9",
+      "type": "application/geo+json",
+      "title": "TER EL TOTORAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-188",
+      "type": "application/geo+json",
+      "title": "TER TRINCAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-186",
+      "type": "application/geo+json",
+      "title": "TER CHUYACA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-13",
+      "type": "application/geo+json",
+      "title": "TER QUINTAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-12",
+      "type": "application/geo+json",
+      "title": "TER PLACILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-183",
+      "type": "application/geo+json",
+      "title": "TER OLIVOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-139",
+      "type": "application/geo+json",
+      "title": "TER DEGAÑ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-144",
+      "type": "application/geo+json",
+      "title": "TER ESPERANZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-4",
+      "type": "application/geo+json",
+      "title": "TER CONSTITUCION"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-23",
+      "type": "application/geo+json",
+      "title": "PMGD TER PUNITAQUI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-22",
+      "type": "application/geo+json",
+      "title": "PMGD TER MONTE PATRIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2",
+      "type": "application/geo+json",
+      "title": "TER MAULE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-8",
+      "type": "application/geo+json",
+      "title": "TER CONCON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-67",
+      "type": "application/geo+json",
+      "title": "PMGD TER CURAUMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-10",
+      "type": "application/geo+json",
+      "title": "TER LAS VEGAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-80",
+      "type": "application/geo+json",
+      "title": "TER NUEVA ALDEA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-42",
+      "type": "application/geo+json",
+      "title": "PMGD TER CURACAUTIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-40",
+      "type": "application/geo+json",
+      "title": "PMGD TER CHUFKEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-39",
+      "type": "application/geo+json",
+      "title": "PMGD TER CAÑETE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-256",
+      "type": "application/geo+json",
+      "title": "PMGD TER LEBU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-255",
+      "type": "application/geo+json",
+      "title": "PMGD TER TRONGOL-CURANILAHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-78",
+      "type": "application/geo+json",
+      "title": "TER ANTILHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-76",
+      "type": "application/geo+json",
+      "title": "TER VENTANAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-71",
+      "type": "application/geo+json",
+      "title": "TER LAGUNA VERDE TG"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-347",
+      "type": "application/geo+json",
+      "title": "TER VENTANAS II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-201",
+      "type": "application/geo+json",
+      "title": "TER GUACOLDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-200",
+      "type": "application/geo+json",
+      "title": "TER RENCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-182",
+      "type": "application/geo+json",
+      "title": "TER PETROPOWER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-122",
+      "type": "application/geo+json",
+      "title": "TER HUASCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-120",
+      "type": "application/geo+json",
+      "title": "TER DIEGO DE ALMAGRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-117",
+      "type": "application/geo+json",
+      "title": "TER BOCAMINA"
+    }
+  ]
+}
