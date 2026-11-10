@@ -1,0 +1,24 @@
+{
+  "searches": [
+    {
+      "collections": [
+        "cen-pt1h__v0.1.0"
+      ],
+      "filter-lang": "cql2-json",
+      "filter": {
+        "op": "in",
+        "args": [
+          {
+            "property": "energy:fuel_type"
+          },
+          [
+            "solar"
+          ]
+        ]
+      }
+    }
+  ],
+  "added": [],
+  "removed": [],
+  "resolved": "2026-11-10T09:30:29.564245Z"
+}
