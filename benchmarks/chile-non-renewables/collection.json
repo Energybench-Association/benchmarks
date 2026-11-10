@@ -1,0 +1,4603 @@
+{
+  "type": "Collection",
+  "stac_version": "1.0.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "id": "benchmark-chile-non-renewables",
+  "title": "Chile non-renewables",
+  "description": "Chile non-renewables",
+  "license": "proprietary",
+  "keywords": [
+    "benchmark",
+    "solar"
+  ],
+  "providers": [
+    {
+      "name": "Elena Vollmer",
+      "roles": [
+        "producer"
+      ],
+      "url": "https://github.com/emvollmer"
+    },
+    {
+      "name": "Energybench Association",
+      "roles": [
+        "host"
+      ],
+      "url": "https://www.energybench.org"
+    }
+  ],
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -73.76707486771618,
+          -40.320108478677874,
+          -68.21300782671351,
+          -18.35070251736723
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2012-12-12T03:00:00Z",
+          "2026-01-01T03:00:00Z"
+        ]
+      ]
+    }
+  },
+  "summaries": {
+    "energy:fuel_type": [
+      "solar"
+    ],
+    "energy:entity_type": [
+      "facility"
+    ],
+    "energy:status": [
+      "active",
+      "decommissioned",
+      "under_construction"
+    ],
+    "energy:measurement_type": [
+      "gross_output"
+    ]
+  },
+  "themes": [
+    {
+      "scheme": "https://energybench.org/domains",
+      "concepts": [
+        {
+          "id": "benchmark"
+        }
+      ]
+    }
+  ],
+  "created": "2026-11-10T09:30:29.558942Z",
+  "links": [
+    {
+      "rel": "root",
+      "href": "https://www.energybench.org/api/",
+      "type": "application/json"
+    },
+    {
+      "rel": "via",
+      "href": "./search.json",
+      "type": "application/json",
+      "title": "How this selection was made"
+    },
+    {
+      "rel": "license",
+      "href": "https://www.coordinador.cl/terminos-y-condiciones/",
+      "type": "text/html",
+      "title": "CEN (Chile) hourly generation per plant — release v0.1.0: Terms of use"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2413",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CERES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2211",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LINCE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2430",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CATURRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2421",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MAULE X"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2224",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ELVIRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2416",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUILVO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2409",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ARTEMISA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2275",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHILOE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2315",
+      "type": "application/geo+json",
+      "title": "PFV CAIMANES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2410",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS EUCALIPTOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2405",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HORTENSIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2427",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONCORDE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2411",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA ROSA DE SHARON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2272",
+      "type": "application/geo+json",
+      "title": "PMGD PFV YUNGAY II TRILALEO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2377",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHILLAN CONFLUENCIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2350",
+      "type": "application/geo+json",
+      "title": "PFV VICTOR JARA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2202",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ANDRÓMEDA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2417",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ANGOL SOLAR I"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2412",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALCAZAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2408",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HERGO LOS SAUCES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2393",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VALLE ALEGRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2385",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUMILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2367",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PIRINCHO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2414",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA COSECHA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2399",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FARO SANTA ELENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2395",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE DOÑA BERTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2403",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA BRUJULA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2149",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS CORRALES DEL VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2400",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RITA DEL MAITEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2397",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS GUINDILLAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2313",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AMANECER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2387",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DINAMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2135",
+      "type": "application/geo+json",
+      "title": "PFV CALEU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2366",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHILLAN VICENTE MENDEZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2307",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN RAMON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2383",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FALCON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2245",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHAMONATE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2391",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUMAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2355",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BOIX"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2370",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALGARROBO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2322",
+      "type": "application/geo+json",
+      "title": "PFV ANDES SOLAR III"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2384",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RANGUIL SOLAR NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2266",
+      "type": "application/geo+json",
+      "title": "PFV CALDERAZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2396",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ENCINA lll"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2347",
+      "type": "application/geo+json",
+      "title": "PFV NUEVO QUILLAGUA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2382",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RAMIREZ DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2369",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BELLOTO B XXVII"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2381",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUIG SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2342",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PERLA DEL NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2304",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FENIX"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2233",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CAUCE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2389",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ESMERALDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2080",
+      "type": "application/geo+json",
+      "title": "PFV GUINDO SANTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2375",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MILLAHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2281",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COLLANCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2376",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAND SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2116",
+      "type": "application/geo+json",
+      "title": "PFV TUTUVEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2365",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TARUCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2203",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CASA DE LATA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2109",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS MORROS I"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2353",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TACAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2357",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOLARIS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2351",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARGARITA X"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2360",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL TREBOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2311",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SUNRAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2263",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA GONZALINA DE TUNICHE SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2374",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL ÑANDU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2349",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PERSEFONE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2368",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SIRIMAVO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2331",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2289",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CANQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2358",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CETUS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2321",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA CVE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2337",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN VICENTE TT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2359",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL TRIUNFO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2372",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PVP CHINCHORRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2371",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FRAGATA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2348",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHILLAN HUAMBALI HIPER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2024",
+      "type": "application/geo+json",
+      "title": "PFV PMG PARQUE CAUQUENES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2037",
+      "type": "application/geo+json",
+      "title": "PFV VILLA LONGAVI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2330",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS BANOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2335",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TOPACIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2352",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CUARZO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2356",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONDOR LA LIGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2364",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ISIDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2265",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHACAICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2333",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CATO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2303",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHOLGUAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2302",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VELASCO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2288",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COLIBRI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2282",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUINTACABRERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2279",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LIEBRE DE VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2270",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA PERLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2079",
+      "type": "application/geo+json",
+      "title": "PFV LOS NARANJOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2147",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALIANZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2077",
+      "type": "application/geo+json",
+      "title": "PFV RAULI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2317",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CURACO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2344",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BARCELONA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2324",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BULNES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2252",
+      "type": "application/geo+json",
+      "title": "PFV ESPIGA DE ORO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2345",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TORTUGA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2336",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BELEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2312",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CEFALU SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2301",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PVP LA ROSA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2153",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BELENOS TIL TIL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2309",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SGT TUCAPEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2316",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAGRADA FAMILIA LA FORTUNA 15"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2078",
+      "type": "application/geo+json",
+      "title": "PFV PEUMO YUNGAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2341",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GENOVA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2334",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARIA DOLORES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2103",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FV CHICAUMA DEL VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2305",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LENGA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2340",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOLAR DEL BUENO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2327",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TABOLANGO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2261",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HIJUELA 4"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2165",
+      "type": "application/geo+json",
+      "title": "PFV RUCASOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2157",
+      "type": "application/geo+json",
+      "title": "PFV LEYDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2329",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CARANCA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2320",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL TURPIAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2319",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LLOICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2326",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA BLANCA DE ISLA DE MAIPO SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2310",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ANCAHUAL SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2274",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA HUERTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2306",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN RAFAEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2248",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AHE BUENAS YERBAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2199",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL LORO CHOROY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2191",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VERONA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2179",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LONCURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2277",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN CLEMENTE FLOR DEL LLANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2209",
+      "type": "application/geo+json",
+      "title": "PFV DON HUMBERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2280",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MACAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2244",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CHILCAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2064",
+      "type": "application/geo+json",
+      "title": "PFV PMG LLANCAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2294",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUILMO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2314",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LLUTA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2278",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DOÑA REGINA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2231",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TURQUÍA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2300",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VIÑAS DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2220",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE PVP UNIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2232",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLAZA SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2308",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JILGUERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2293",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHAÑAR DEL VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2297",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RCU (RTN)"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2298",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOLARPARK MALLOA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2287",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PESARO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2213",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN ALBERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2143",
+      "type": "application/geo+json",
+      "title": "PFV TAMARICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2210",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EA SF PICHILEMU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2160",
+      "type": "application/geo+json",
+      "title": "PFV TAMANGO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2247",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN EDUARDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2127",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA TERESITA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2271",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUEBLO HUNDIDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2230",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PVP MAYOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2286",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ROMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-574",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CINTAC"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2262",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA PAMELA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2254",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALTO BELLAVISTA SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1972",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL TRILE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2268",
+      "type": "application/geo+json",
+      "title": "PMGD PVF DOÑA RUBENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2181",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL INTERLOCUTOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2246",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CABIMAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2217",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHEQUEN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2182",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TALAGANTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2222",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HURTADO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2219",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CE CALDERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2164",
+      "type": "application/geo+json",
+      "title": "PFV ALTO DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2284",
+      "type": "application/geo+json",
+      "title": "PFV DESIERTO DE ATACAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2292",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALBATROS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2267",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOMA TENDIDA DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2241",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON SIMON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2204",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALDEBARAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2215",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HUINGAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2276",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CAIQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2086",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUEBRADA DE TALCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2229",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SAN FRANCISCO PARRAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2250",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA VENDIMIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2178",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AXEL SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2243",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MORA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2008",
+      "type": "application/geo+json",
+      "title": "PFV PATAGUILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2240",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EA MAITEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2093",
+      "type": "application/geo+json",
+      "title": "PFV TAIRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2242",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SGT CATAPILCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2256",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS ROBLES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2251",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALAMEDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2214",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE FAROL SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2136",
+      "type": "application/geo+json",
+      "title": "PMGD PFV REN - AMPLIACION"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2208",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ENAMI SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1948",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TAMARAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2094",
+      "type": "application/geo+json",
+      "title": "PFV GRAN TENO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2150",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOFIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2264",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CARPINTERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2253",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL MIRLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2223",
+      "type": "application/geo+json",
+      "title": "PMGD PFV POMUYETO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2212",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CARDENAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2162",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CENTAURO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2168",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PATAGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2218",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EA SF GRANEROS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2180",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MACARENA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2173",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN ANTONIO DEL MONTE SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2216",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RUCAPAINE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2198",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOL DEL MAULE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2205",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CORSO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2125",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA PAZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2151",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOY SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2171",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PENCAHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2022",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MALVILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2201",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TRANQUE DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2104",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FUSTER DEL VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2040",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AÑUÑUCA DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2095",
+      "type": "application/geo+json",
+      "title": "PFV EMILIA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2062",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CUERVO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2087",
+      "type": "application/geo+json",
+      "title": "PFV DOÑA ANTONIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2076",
+      "type": "application/geo+json",
+      "title": "PFV ANDES SOLAR IV"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2052",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN EUGENIO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2158",
+      "type": "application/geo+json",
+      "title": "PMGD PFV POCILLAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2113",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ORQUIDEA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2126",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CARA DE GALLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2099",
+      "type": "application/geo+json",
+      "title": "PFV CHERCAN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2174",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TIJERAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2089",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BLU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2038",
+      "type": "application/geo+json",
+      "title": "PFV QUILMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2195",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAJA ANDINO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2092",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AVELLANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2197",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS ARBOLEDAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2206",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TAGUAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2177",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JARDIN SOLAR PETORCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2175",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PAILLIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2137",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FOTOVOLT LIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2108",
+      "type": "application/geo+json",
+      "title": "PFV DON OSCAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2140",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PELLIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2081",
+      "type": "application/geo+json",
+      "title": "PFV VENEZIA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2010",
+      "type": "application/geo+json",
+      "title": "PFV CEME 1"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2114",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON MATIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2183",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL RAYADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2128",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MAIMALICAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2167",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHILENER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2159",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SIETE COLORES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2096",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA LUCIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2123",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DOÑA IGNA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1941",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR EL PALQUI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2019",
+      "type": "application/geo+json",
+      "title": "PFV MANZANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2154",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RENGO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2148",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF EL PERAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1908",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE LA TRAVESIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2098",
+      "type": "application/geo+json",
+      "title": "PFV LUCAS SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2184",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS CISNES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2107",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MAITENLAHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2152",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CHERCAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2075",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VIOLETA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2145",
+      "type": "application/geo+json",
+      "title": "PMGD PFV YAHUTELA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2057",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LIQUIDAMBAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2163",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ARICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2132",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS NOGALES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2130",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LO MIGUEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2124",
+      "type": "application/geo+json",
+      "title": "PMGD PFV INDEPENDENCIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2115",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE EL TRIGAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2061",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CLEMENTINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2133",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL GAVIOTIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1983",
+      "type": "application/geo+json",
+      "title": "PFV LAS SALINAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2131",
+      "type": "application/geo+json",
+      "title": "PMGD PFV OLIVIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2129",
+      "type": "application/geo+json",
+      "title": "PMGD PFV OLIVIER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2139",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RIMINI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2134",
+      "type": "application/geo+json",
+      "title": "PMGD PFV REN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2105",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF COYUNCHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2088",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TALLADO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2070",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR EL RECONQUISTADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2102",
+      "type": "application/geo+json",
+      "title": "PFV PMG NORTH WEST"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1841",
+      "type": "application/geo+json",
+      "title": "PFV WILLKA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2146",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUEMADOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2111",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AYLA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2043",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARAÑON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1994",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ARMAZONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1993",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARANAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1974",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NEWENTUN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2083",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CABRERO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2118",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MALLOCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2117",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE PUEBLO SECO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2101",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PATRICIA DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2069",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PELUMPEN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2097",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF LA GAMBOINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2084",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ROSARIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2073",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MAIKONO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2011",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COLTAUCO ALMENDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2112",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS BANDURRIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2110",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL PICHON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2085",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COLINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1947",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HUAQUELON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2082",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONCON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2060",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF CHAMPA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1989",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS GOLONDRINAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2048",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAMO BAJO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1850",
+      "type": "application/geo+json",
+      "title": "PFV ANDES SOLAR II-B"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1913",
+      "type": "application/geo+json",
+      "title": "PFV MESETA DE LOS ANDES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2059",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR EL OLIVAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2046",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CAÑONES SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1853",
+      "type": "application/geo+json",
+      "title": "PFV CARACAS II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2071",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RATULEMUS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2063",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR JOTABECHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1889",
+      "type": "application/geo+json",
+      "title": "PFV ELENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2050",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR FOTOVOLTAICO LA VICTORIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2014",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ITAHUE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2066",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CAUQUENES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2025",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOLAR TORINO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2001",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF HORIZONTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1986",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PSF PUANGUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1965",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PIDUCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1957",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLAYERON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2055",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR RIO PEUCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2068",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS LIRIOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2012",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PEQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2044",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE EL INGENIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2074",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALBOR SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2051",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONDOR PETORCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2045",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RDCL SAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2054",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LO CHACON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2041",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA MOSCOSO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2072",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON MARTIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1949",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GABRIELA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1916",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GRANATE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1912",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FLORENCIA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2021",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON RODRIGO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2053",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AROMO DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2036",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BERGAMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2034",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1991",
+      "type": "application/geo+json",
+      "title": "PMGD PFV IDAHUE DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1946",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SUNHUNTER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1834",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE ROMERIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2058",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BULNES LOS BARONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2047",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TIERRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2039",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS PALMAS DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1982",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA COLONIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2030",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LIMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2029",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONDOR CHEPICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1999",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLOMO DE VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1997",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GUANACO AMPLIACION"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1950",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON ENRIQUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2035",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS JOTES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2031",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PICUNCHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2015",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JAVIERA CARRERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2020",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COINCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2004",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CKILIR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1998",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DUQUECO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1940",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2016",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MILAN A"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1988",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CACHAÑAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1945",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PASTRAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1943",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ANAKENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1888",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE PANGUILEMO AEROPUERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2013",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SLK CB NUEVE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1990",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL TIUQUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2009",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2028",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LITORAL SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2027",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA EMILIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1979",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR CANTILLANA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2007",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PALTO SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1975",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA ELIZABETH"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1942",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ICB"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2003",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOCKMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1977",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL HUASO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2002",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR ALCON SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2006",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AVEL SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1987",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MANDINGA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1919",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RECOLETA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1970",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RINCONADA ALCONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1969",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE FOTOVOLTAICO EL SHARON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1992",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CANTERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1953",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE PVP ITIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2005",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN JOSE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-2000",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HELIOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1996",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CABILDO SUNLIGHT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1973",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN EMILIO SOLAR I"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1900",
+      "type": "application/geo+json",
+      "title": "PFV GUANCHOI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1929",
+      "type": "application/geo+json",
+      "title": "PMG PFV SOLAR PALERMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1864",
+      "type": "application/geo+json",
+      "title": "PFV COYA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1985",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VENTISQUERO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1981",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CENTRAL LLIU LLIU (FOSTER)"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1966",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FULGOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1932",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CATITAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1891",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SANTA CRUZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1964",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ENCINO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1952",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE VALPARAISO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1938",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FARAMALLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1873",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PEÑAFLOR SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1971",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CARACOLES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1930",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR NANCAGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1980",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MANAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1976",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TREBO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1923",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ASTILLAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1968",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GUARANA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1839",
+      "type": "application/geo+json",
+      "title": "PFV VALLE DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1951",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MITCHI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1967",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GABARDO DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1963",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN CARLOS SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1939",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS TORDOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1931",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS TAURETES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1917",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COLCHAGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1705",
+      "type": "application/geo+json",
+      "title": "PFV CAPRICORNIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1960",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FARDELA NEGRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1935",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUELCHE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1863",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LO BOZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1958",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TORTOLAS DEL VERANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1954",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL MONTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1911",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CONDOR PELVIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1875",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SALERNO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1934",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TARANTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1933",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL ZORZAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1905",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR MARAMBIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1925",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOLARPARK VILLA ALEMANA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1924",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GUADALUPE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1955",
+      "type": "application/geo+json",
+      "title": "PMGD PFV REXNER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1936",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NAZARINO DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1927",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA FRANCISCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1920",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MELI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1918",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN ANTONIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1897",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA PALMA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1860",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE CURICURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1781",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TENCAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1810",
+      "type": "application/geo+json",
+      "title": "PFV PAMPA TIGRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1809",
+      "type": "application/geo+json",
+      "title": "PFV VALLE ESCONDIDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1852",
+      "type": "application/geo+json",
+      "title": "PFV MACHICURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1851",
+      "type": "application/geo+json",
+      "title": "PFV TENO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1899",
+      "type": "application/geo+json",
+      "title": "PFV CASTILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1909",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ERINOME"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1928",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ESCORIAL DEL VERANO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1896",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR PEUMO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1910",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PACHIRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1885",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUETENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1915",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA MARGARITA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1893",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CORTIJO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1914",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CASTAÑO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1901",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS MAGNOLIOS SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1894",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PEGASUS SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1848",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL FLAMENCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1847",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CURACAVI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1842",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN CAMILO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1831",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS MAJADAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1829",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA FORESTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1906",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA LUISA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1824",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR LA MURALLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1862",
+      "type": "application/geo+json",
+      "title": "PFV DIEGO DE ALMAGRO SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1849",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR ALCALDESA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1877",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ESFENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1861",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE ALHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1895",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS MOLINOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1879",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MUTUPIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1846",
+      "type": "application/geo+json",
+      "title": "PMGD PFV KAUFMANN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1756",
+      "type": "application/geo+json",
+      "title": "PFV SOL DE LOS ANDES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1878",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VICENTE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1892",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MOYA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1887",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA ESTER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1837",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TAMARUGO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1817",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PAINE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1827",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LINGUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1826",
+      "type": "application/geo+json",
+      "title": "PFV TAMAYA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1843",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DADINCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1876",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CABRAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1872",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AVILES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1870",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS LAGOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1866",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR PITAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1770",
+      "type": "application/geo+json",
+      "title": "PFV SOL DEL NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1740",
+      "type": "application/geo+json",
+      "title": "PFV SOL DEL DESIERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1771",
+      "type": "application/geo+json",
+      "title": "PFV DEL DESIERTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1768",
+      "type": "application/geo+json",
+      "title": "PFV DE LOS ANDES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1742",
+      "type": "application/geo+json",
+      "title": "PFV SOL DE LILA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1869",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LINARES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1820",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TRINIDAD"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1794",
+      "type": "application/geo+json",
+      "title": "PFV DOMEYKO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1786",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CAIMI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1880",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ORION SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1808",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SATURNO NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1741",
+      "type": "application/geo+json",
+      "title": "PFV LA CRUZ SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1828",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL PIUQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1871",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RINCONADA NORTE (SLK 808)"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1859",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE PENCAHUE ESTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1886",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HUAPE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1835",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR MEMBRILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1813",
+      "type": "application/geo+json",
+      "title": "PMGD PFV UTFSM VITACURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1867",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LLAY LLAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1857",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NAHUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-649",
+      "type": "application/geo+json",
+      "title": "CSP CERRO DOMINADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1855",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA RITA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1807",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MERCURIO SUR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1858",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PRETTY FIELD"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1811",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MALINKE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1856",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SDSI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1818",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR OVALLE NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1805",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR MECO CHILLAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1833",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1798",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR SAN JAVIER"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1761",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN RAMIRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1814",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON ANDRONICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1832",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VENTURADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1704",
+      "type": "application/geo+json",
+      "title": "PFV CAMPOS DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1651",
+      "type": "application/geo+json",
+      "title": "PFV SANTA ISABEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1836",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BERRUECO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1715",
+      "type": "application/geo+json",
+      "title": "PFV MALGARIDA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1714",
+      "type": "application/geo+json",
+      "title": "PFV MALGARIDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-526",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HOMERO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1688",
+      "type": "application/geo+json",
+      "title": "PFV LA HUELLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1775",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TORTOLAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1838",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CASABERMEJA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1799",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL ROMERAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1825",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUMBRERAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1806",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUINANTU SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1766",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CIPRES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1694",
+      "type": "application/geo+json",
+      "title": "PFV RIO ESCONDIDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1802",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR RAULI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1788",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA CAROLINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1696",
+      "type": "application/geo+json",
+      "title": "PFV AZABACHE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1783",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COCINILLAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1782",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR BICENTENARIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1671",
+      "type": "application/geo+json",
+      "title": "PFV ATACAMA SOLAR II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1797",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PITRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1803",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA INES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1801",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLAYERITO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1796",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON JORGE (EX PERALILLO)"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1784",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CANELILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1665",
+      "type": "application/geo+json",
+      "title": "PFV NUEVO QUILLAGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1816",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL SALITRAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1769",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TORCAZAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1763",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUENTE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1759",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLAYERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1774",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS TILOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1791",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CANDELARIA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1672",
+      "type": "application/geo+json",
+      "title": "PFV SAN PEDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-445",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LIRIO DEL CAMPO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1787",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUILLAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1765",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL GUANACO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-614",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS PERALES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1764",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PEPA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1750",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GRANADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1762",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FILOMENA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1656",
+      "type": "application/geo+json",
+      "title": "PFV USYA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1735",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA ALEGRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1748",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOL DE SEPTIEMBRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1754",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COCHARCAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-635",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CONDOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1749",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TREBAL SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1747",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL LITRE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1751",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ARGOMEDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1755",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VICTORIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1745",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA AMELIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1744",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL RESPLANDOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1739",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA CHIMBA BIS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1738",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR LEMU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1737",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PITOTOY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1736",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUELTEHUE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1729",
+      "type": "application/geo+json",
+      "title": "PMGD PFV COVADONGA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-643",
+      "type": "application/geo+json",
+      "title": "PFV ANDES SOLAR II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1734",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON MARIANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1733",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ÑIQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1725",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JAHUEL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1731",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ANTONIA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1730",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GIRASOLES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-599",
+      "type": "application/geo+json",
+      "title": "PFV ALMEYDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-503",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL QUELTEHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1728",
+      "type": "application/geo+json",
+      "title": "PMGD PFV UTFSM VIÑA DEL MAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1727",
+      "type": "application/geo+json",
+      "title": "PMGD PFV UTFSM VALPARAISO VALDES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1726",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DARLIN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1732",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARQUE SOLAR SANTA FE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1724",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CHUCAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1718",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PULLALLI SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-639",
+      "type": "application/geo+json",
+      "title": "PFV GRANJA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1721",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LLANOS DE POTROSO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1719",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARIA PINTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1711",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHACABUCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1710",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CHACRAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1713",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA CRUZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1709",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA ESTANCIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1723",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CATEMU"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1720",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TRICA-DOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1708",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RAUQUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1689",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GUADALAO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1698",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PARAGUAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1680",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RINCONADA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1660",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS MERCEDES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1676",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL ESTERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1675",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LORETO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1684",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS PALTOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1683",
+      "type": "application/geo+json",
+      "title": "PMGD PFV KONDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1687",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS ROJAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1669",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ECLIPSE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1681",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LO MIRANDA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1670",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PILPILEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1668",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CITRINO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1662",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BELLAVISTA 1"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1659",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN ISIDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1655",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA LIGUA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1654",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUCE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-1653",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA SECA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-640",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RLA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-616",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TRICAHUE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-647",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TUCUQUERE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-651",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS LECHUZAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-653",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PLACILLA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-648",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JOSE SOLER MALLAFRE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-645",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DOÑIHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-646",
+      "type": "application/geo+json",
+      "title": "PMGD PFV JAURURO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-637",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TALCA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-641",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CANESA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-632",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ILLAPEL 5X"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-642",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS PERDICES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-638",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MONTT SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-633",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS CODORNICES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-631",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CRUZ SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-630",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHALINGA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-629",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RANGUIL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-600",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LO SIERRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-644",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARCHIHUE VII"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-615",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA ADRIANA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-598",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ARIZTIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-625",
+      "type": "application/geo+json",
+      "title": "PMGD PFV NORTE CHICO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-617",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CASUTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-609",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LIPANGUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-604",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA LAJUELA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-619",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ROVIAN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-612",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALTOS DE TILTIL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-585",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUNA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-606",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PEDREROS SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-443",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL LAUREL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-608",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA CLARA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-603",
+      "type": "application/geo+json",
+      "title": "PMGD PFV POBLACION"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-601",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CRUCERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-597",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VITUCO 2B"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-581",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FOTOVOLT SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-573",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ENCON SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-517",
+      "type": "application/geo+json",
+      "title": "PFV HUATACONDO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-605",
+      "type": "application/geo+json",
+      "title": "PMGD PFV GR SANTA ROSA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-602",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PIRQUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-584",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL QUEULE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-457",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA ESPERANZA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-590",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CACHIYUYO SOLAR II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-586",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MALAQUITA SOLAR II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-578",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VALLE SOLAR ESTE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-528",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DIEGO DE ALMAGRO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-595",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARIN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-593",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CALLE LARGA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-592",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA BLANQUINA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-580",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL QUEMADO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-579",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VALLE SOLAR OESTE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-589",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PUNTA BAJA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-577",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PIQUERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-571",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALTO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-582",
+      "type": "application/geo+json",
+      "title": "PMGD PFV RODEO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-576",
+      "type": "application/geo+json",
+      "title": "PMGD PFV OLIVILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-572",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALICAHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-560",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS PALOMAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-559",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VILLA PRAT"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-558",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CATAN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-556",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA LAURA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-555",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS LIBERTADORES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-546",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS PATOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-500",
+      "type": "application/geo+json",
+      "title": "PMGD PFV FRANCISCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-564",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CHINCOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-562",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL PICURIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-550",
+      "type": "application/geo+json",
+      "title": "PMGD PFV OCOA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-519",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PORTEZUELO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-506",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTUARIO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-501",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PANQUEHUE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-320",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HORNITOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-508",
+      "type": "application/geo+json",
+      "title": "PMGD PFV DON EUGENIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-554",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TALHUEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-541",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA ACACIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-524",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CERNICALO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-518",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL CERNICALO II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-515",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHIMBARONGO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-514",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA FRONTERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-513",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA MANGA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-522",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS GORRIONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-511",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL PILPEN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-462",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MARCHIGUE II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-442",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL ROBLE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-529",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL PITIO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-439",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL SAUCE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-545",
+      "type": "application/geo+json",
+      "title": "PMGD PFV OVEJERIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-543",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUDERS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-537",
+      "type": "application/geo+json",
+      "title": "PMGD PFV MOSTAZAL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-534",
+      "type": "application/geo+json",
+      "title": "PMGD PFV AMPARO DEL SOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-539",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHANCON"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-530",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PERALILLO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-364",
+      "type": "application/geo+json",
+      "title": "PFV SANTIAGO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-483",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TURCAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-459",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CUZ CUZ"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-426",
+      "type": "application/geo+json",
+      "title": "PFV EL PELICANO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-496",
+      "type": "application/geo+json",
+      "title": "PMGD PFV QUINTA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-495",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN FRANCISCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-498",
+      "type": "application/geo+json",
+      "title": "PMGD PFV VALLE DE LA LUNA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-490",
+      "type": "application/geo+json",
+      "title": "PFV CERRO DOMINADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-491",
+      "type": "application/geo+json",
+      "title": "PFV PUERTO SECO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-489",
+      "type": "application/geo+json",
+      "title": "PFV ANTAY"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-527",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CABILSOL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-425",
+      "type": "application/geo+json",
+      "title": "PFV DOÑA CARMEN SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-480",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CALAMA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-456",
+      "type": "application/geo+json",
+      "title": "PFV BOLERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-437",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL BOCO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-362",
+      "type": "application/geo+json",
+      "title": "PFV PILOTO SOLAR CARDONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-455",
+      "type": "application/geo+json",
+      "title": "PFV URIBE SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-429",
+      "type": "application/geo+json",
+      "title": "PMGD PFV HORMIGA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-435",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ÑILHUE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-430",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SAN PEDRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-428",
+      "type": "application/geo+json",
+      "title": "PMGD PFV ALTURAS DE OVALLE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-418",
+      "type": "application/geo+json",
+      "title": "PFV EL ROMERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-427",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CORDILLERILLA SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-415",
+      "type": "application/geo+json",
+      "title": "PMGD PFV EL DIVISADERO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-412",
+      "type": "application/geo+json",
+      "title": "PMGD PFV CHUCHIÑI"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-359",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TILTIL"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-407",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS ARAUCARIAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-384",
+      "type": "application/geo+json",
+      "title": "PFV PAMPA CAMARONES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-356",
+      "type": "application/geo+json",
+      "title": "PFV CONEJO SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-349",
+      "type": "application/geo+json",
+      "title": "PFV QUILAPILUN"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-355",
+      "type": "application/geo+json",
+      "title": "PFV LOS LOROS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-367",
+      "type": "application/geo+json",
+      "title": "PMGD PFV BELLAVISTA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-372",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA JULIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-348",
+      "type": "application/geo+json",
+      "title": "PFV LA SILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-332",
+      "type": "application/geo+json",
+      "title": "PFV PAMPA SOLAR NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-374",
+      "type": "application/geo+json",
+      "title": "PFV ANDES SOLAR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-354",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS MOLLACAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-353",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LA CHAPEANA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-399",
+      "type": "application/geo+json",
+      "title": "PFV FINIS TERRAE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-475",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PICA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-474",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PAS1"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-470",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOS PUQUIOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-403",
+      "type": "application/geo+json",
+      "title": "PFV LA HUAYCA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-402",
+      "type": "application/geo+json",
+      "title": "PFV POZO ALMONTE SOLAR III"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-401",
+      "type": "application/geo+json",
+      "title": "PFV POZO ALMONTE SOLAR II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-400",
+      "type": "application/geo+json",
+      "title": "PFV JAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-394",
+      "type": "application/geo+json",
+      "title": "PFV MARIA ELENA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-385",
+      "type": "application/geo+json",
+      "title": "PFV EL AGUILA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-337",
+      "type": "application/geo+json",
+      "title": "PFV CARRERA PINTO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-357",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAGUNILLA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-339",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SOL DEL NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-333",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LUNA DEL NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-317",
+      "type": "application/geo+json",
+      "title": "PFV LOMA LOS COLORADOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-331",
+      "type": "application/geo+json",
+      "title": "PFV PILAR LOS AMARILLOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-344",
+      "type": "application/geo+json",
+      "title": "PFV LALACKAMA II"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-284",
+      "type": "application/geo+json",
+      "title": "PFV LALACKAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-314",
+      "type": "application/geo+json",
+      "title": "PFV JAVIERA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-319",
+      "type": "application/geo+json",
+      "title": "PFV LUZ DEL NORTE"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-285",
+      "type": "application/geo+json",
+      "title": "PFV CHAÑARES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-305",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LAS TERRAZAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-288",
+      "type": "application/geo+json",
+      "title": "PFV SALVADOR"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-307",
+      "type": "application/geo+json",
+      "title": "PMGD PFV LOMAS COLORADAS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-306",
+      "type": "application/geo+json",
+      "title": "PMGD PFV PAMA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-269",
+      "type": "application/geo+json",
+      "title": "PFV DIEGO DE ALMAGRO"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-278",
+      "type": "application/geo+json",
+      "title": "PMGD PFV SANTA CECILIA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-308",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TECHOS DE ALTAMIRA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-248",
+      "type": "application/geo+json",
+      "title": "PFV SAN ANDRES"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-247",
+      "type": "application/geo+json",
+      "title": "PFV LLANO DE LLAMPOS"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-346",
+      "type": "application/geo+json",
+      "title": "PFV ESPERANZA"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-239",
+      "type": "application/geo+json",
+      "title": "PFV SDGX01"
+    },
+    {
+      "rel": "item",
+      "href": "https://www.energybench.org/api/collections/cen-pt1h__v0.1.0/items/cen-309",
+      "type": "application/geo+json",
+      "title": "PMGD PFV TAMBO REAL"
+    }
+  ]
+}
